@@ -1,0 +1,24 @@
+.contactBg {
+  background-color: darkgray;
+  height: 100vh;
+}
+
+input {
+  border-radius: 5px;
+  border: 2px solid darkgray;
+}
+
+textarea {
+  border: 2px solid darkgray;
+  border-radius: 10px;
+}
+
+.line {
+  height: 35vh;
+  width: 3px;
+  background-color: black;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}

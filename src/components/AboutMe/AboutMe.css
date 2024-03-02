@@ -1,0 +1,57 @@
+.global {
+  background-image: url("../images/rat.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the background image */
+  height: 100vh;
+}
+
+.aboutme {
+  display: flex;
+  background-image: none;
+}
+
+.left {
+  background-image: none;
+  color: purple;
+  display: flex;
+  flex-direction: column;
+  margin-top: 17%;
+}
+
+i {
+  background-image: none;
+}
+
+.anchor {
+  background-image: none;
+  transition: transform 0.3s;
+  font-size: xx-large;
+  color: purple;
+  line-height: 50px;
+}
+
+.anchor:hover {
+  background-image: none;
+  transform: scale(1.2);
+}
+
+.right {
+  display: flex;
+  background-image: none;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: larger;
+  text-align: justify;
+  margin-left: 96px;
+  margin-right: 98px;
+}
+
+@media (max-width: 768px) {
+  .global {
+    /* Adjust styles for screens smaller than 768 pixels wide */
+    height: 50vh; /* Adjust the height if needed */
+  }
+}

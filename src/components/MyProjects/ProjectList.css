@@ -1,0 +1,30 @@
+.probg {
+  color: tomato;
+}
+
+.prohead {
+  text-align: center;
+  color: cornflowerblue;
+}
+
+/* .precard{
+    border: 2px solid red;
+    display:inline-flex;
+    gap:50px;
+} */
+
+/* .contain {
+  display: inline-flex;
+  margin-bottom: 15px;
+  margin-top: 5%;
+}
+
+.card {
+  height: 150px;
+  width: 250px;
+  background-color: white;
+  margin-left: 125px;
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+} */
