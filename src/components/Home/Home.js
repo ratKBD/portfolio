@@ -9,7 +9,7 @@ import Contact from "../Contact/Contact";
 
 import React from "react";
 import "./stars.scss";
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 
 const Home = () => {
   return (
@@ -61,7 +61,7 @@ const Home = () => {
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider ">
-                  <Typed
+                  <ReactTyped
                     strings={[
                       "Front End Developer",
                       // "Back End Developer",

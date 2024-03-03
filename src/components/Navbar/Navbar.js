@@ -23,14 +23,14 @@ class Navbar extends React.Component {
       }
     });
 
-    // $("body").scrollspy({
-    //   target: "#mainNav",
-    //   offset: navHeight,
-    // });
+    $("body").scrollspy({
+      target: "#mainNav",
+      offset: navHeight,
+    });
 
-    // $(".js-scroll").on("click", function () {
-    //   $(".navbar-collapse").collapse("hide");
-    // });
+    $(".js-scroll").on("click", function () {
+      $(".navbar-collapse").collapse("hide");
+    });
 
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > 50) {
@@ -75,9 +75,9 @@ class Navbar extends React.Component {
       }
     });
 
-    // $(".js-scroll").on("click", function () {
-    //   $(".navbar-collapse").collapse("hide");
-    // });
+    $(".js-scroll").on("click", function () {
+      $(".navbar-collapse").collapse("hide");
+    });
   }
 
   render() {
