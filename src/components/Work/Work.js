@@ -425,7 +425,6 @@ export default function ProjectList() {
   };
   return (
     <div>
-      <h3 className="prohead">My Projects</h3>
       <section id="work" className="portfolio-mf sect-pt4 route">
         <div className="container">
           <div className="row">

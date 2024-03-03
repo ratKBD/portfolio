@@ -1,6 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+//import css in order
+// import "normalize.css";
+import "./animate.css";
+import "bootstrap/dist/css/bootstrap.css";
+// import "./img/icons/css/ionicons.css";
+import "./components/IMG/font-awesome/css/font-awesome.css";
+import "lightbox2/dist/css/lightbox.min.css";
+import "./style.css";
+
 // import App from "./App";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
