@@ -21,7 +21,7 @@ import ProjectList from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
 import "../src/components/images/css/ionicons.css";
 import BackToTop from "./components/Back-top";
-import Preloader from "./components/Preloader";
+// import Preloader from "./components/Preloader";
 
 import "jquery/dist/jquery.min.js";
 import "popper.js/dist/popper.min.js";
@@ -39,6 +39,6 @@ root.render(
     <ProjectList />
     <Contact />
     <BackToTop />
-    <Preloader />
+    {/* <Preloader /> */}
   </React.StrictMode>
 );
