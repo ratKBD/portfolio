@@ -8,7 +8,6 @@ import "jquery";
 import "bootstrap";
 import "./style.css";
 import About from "./components/About/About";
-import Work from "./components/Work/Work";
 import ProjectList from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
 import "../src/components/images/css/ionicons.css";
