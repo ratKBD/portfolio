@@ -14,7 +14,6 @@ class About extends React.Component {
           porcentage: "90%",
           value: "90",
         },
-        // { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
@@ -24,50 +23,31 @@ class About extends React.Component {
         {
           id: "NextJS_skill",
           content: "NextJS",
-          porcentage: "80%",
-          value: "80",
+          porcentage: "90%",
+          value: "90",
         },
         {
           id: "NodeJS_skill",
           content: "NodeJS",
-          porcentage: "50%",
-          value: "50",
+          porcentage: "90%",
+          value: "90",
         },
         {
-          id: "Power_Automate_skill",
-          content: "Power Automate",
-          porcentage: "80%",
-          value: "80",
+          id: "AWS_skill",
+          content: "AWS(Ec2, S3,Cognito, Lambda, API Gateway)",
+          porcentage: "90%",
+          value: "90",
         },
-        // {
-        //   id: "Python_skill",
-        //   content: "Python",
-        //   porcentage: "75%",
-        //   value: "75",
-        // },
-        // {
-        //   id: "VanillaJS_skill",
-        //   content: "VanillaJS",
-        //   porcentage: "85%",
-        //   value: "85",
-        // },
-        // {
-        //   id: "Wordpress_skill",
-        //   content: "Wordpress",
-        //   porcentage: "80%",
-        //   value: "80",
-        // },
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "I specialize in developing webpages in react with proven experience in developing document management system using sharepoint as backend, and buiding e-commerce website from scratch using medusa with strapi as backend. Skilled in developing dynamic and responsive pages, and swift in debugging performance issues. ",
+            "I have 3+ years of experience across fintech and enterprise organizations, and worked as a full stack developer for a year. As a Frontend developer, have experience working with React libraries and Next framework. Have worked on projects which provide services to banks (built onboarding screens where user do KYC, e-signing, upload contract agreement) and worked on product called CUPI which is a corporate expense tracker(built customer onboarding and  insights screens).  have deployed frontend projects using AWS EC2 instance and using NGINX reverse proxy for routing and SSL termination.",
         },
         {
           id: "second-p-about",
-          content:
-            "I possess hands-on experience in implementing workflow automation using tools such as Power Automate. Additionally, I have practiced utilizing Node.js, although my expertise in this area is currently limited to theoretical knowledge and practical exercises, as opposed to real-time project experience.",
+          content: "",
         },
         // {
         //   id: "third-p-about",

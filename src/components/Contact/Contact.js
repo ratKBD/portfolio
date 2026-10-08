@@ -4,43 +4,6 @@ import imageOverlay from "../../components/IMG/icons/earth.jpg";
 
 const Contact = () => {
   return (
-    // <div className="container contactBg">
-    //   <h1 className="d-flex align-items-center justify-content-center mb-5">
-    //     Contact Form
-    //   </h1>
-    //   <div className="d-flex justify-content-evenly align-items-center space-between py-5">
-    //     <div>
-    //       <div className="p-3 border border-primary m-2 rounded text-white">
-    //         <i class="fa-solid fa-phone "></i> &nbsp; +91 8220462971
-    //       </div>
-    //       <div className="p-3 border border-primary m-2 rounded text-white">
-    //         <i class="fa-solid fa-envelope"></i> &nbsp; vratheesh123@gmail.com
-    //       </div>
-    //       <div className="p-3 border border-primary m-2 rounded text-white">
-    //         <i class="fa-solid fa-location-dot"></i> &nbsp; Vellore, Tamil Nadu
-    //       </div>
-    //     </div>
-    //     {/* <div className="line"></div> */}
-    //     <form action="/contact" name="contact" method="post">
-    //       <div className="  m-2 rounded ">Your Name</div>
-    //       <div className="px-2">
-    //         <input type="text" className="w-100" name="fname" />
-    //       </div>
-    //       <div className=" m-2 rounded">Your Email</div>
-    //       <div className="px-2">
-    //         <input type="text" className="w-100" name="fname" />
-    //       </div>
-    //       <div className=" m-2 rounded">Message</div>
-    //       <div className="px-2">
-    //         <textarea rows="4" cols="50" name="comment" form="usrform">
-    //           Enter text here...
-    //         </textarea>
-    //       </div>
-    //       {/* <button className="px-3 mx-3 contactButton">send</button> */}
-    //       <input type="submit" className="px-2 mx-2"></input>
-    //     </form>
-    //   </div>
-    // </div>
     <section
       className="paralax-mf footer-paralax bg-image sect-mt4 route"
       style={{ backgroundImage: "url(" + imageOverlay + ")" }}
@@ -175,7 +138,7 @@ const Contact = () => {
                         </li>
                         <li>
                           <a
-                            href="https://www.linkedin.com/in/ratheesh-v-90b609184/"
+                            href="https://www.linkedin.com/in/ratheesh-vijayan-90b609184/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >

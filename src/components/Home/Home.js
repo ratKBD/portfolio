@@ -14,41 +14,6 @@ import { ReactTyped } from "react-typed";
 const Home = () => {
   return (
     <>
-      {/* <div className="home">
-        <img
-          className="code"
-          src="https://img.icons8.com/color-glass/96/000000/code.png"
-          alt=""
-        />
-
-        <div className="text">
-          Hi! I'm <span> Ratheesh </span>
-        </div>
-
-        <div className="btn">
-          <button className="navi">
-            <Link className="uline" to="/aboutme">
-              ABOUT ME
-            </Link>
-          </button>
-          <button className="navi">
-            <Link className="uline" to="/myprojects">
-              MY PROJECTS
-            </Link>
-          </button>
-          <button className="navi">
-            <Link className="uline" to="/resume">
-              RESUME
-            </Link>
-          </button>
-          <button className="navi">
-            <Link className="uline" to="/contact">
-              CONTACT
-            </Link>
-          </button>
-        </div>
-      </div> */}
-
       <div id="home" className="intro route bg-image background ">
         <div id="stars" />
         <div id="stars2" />
@@ -63,9 +28,9 @@ const Home = () => {
                 <strong className="text-slider ">
                   <ReactTyped
                     strings={[
-                      "Front End Developer",
+                      "Fullstack Developer",
                       // "Back End Developer",
-                      "Software Engineer",
+                      "Software Developer",
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
